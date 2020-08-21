@@ -1,0 +1,113 @@
+body{
+  background-color: #78ff94;
+}
+h1,h2{
+  color:#000000;
+}
+.gameboard{
+  width: 400px;
+  height: 800px;
+  margin-left: 400px;
+  position: relative;
+  top: -300px;
+}
+.img{
+  margin-left: 50px;
+}
+td{
+  width: 10%;
+  height: 5%;
+  background-color: #455A64;
+}
+
+.i {
+  background-color: #00BCD4; /* cyan */
+}
+
+.o {
+  background-color: #FFEB3B; /* yellow */
+}
+
+.t {
+  background-color: #9C27B0; /* purple */
+}
+
+.s {
+  background-color: #4CAF50; /* green */
+}
+
+.z {
+  background-color: #F44336; /* red */
+}
+
+.j {
+  background-color: #2196F3; /* blue */
+}
+
+.l {
+  background-color: #FF9800; /* orange */
+}
+
+.easy{
+  color: #ffffff;
+  background-color:#00ffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 150px;
+}
+.easy:hover{
+  color: #ffffff;
+  background-color:#66ffff;
+}
+
+.hard{
+  color: #ffffff;
+  background-color:#0000ff;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 150px;
+}
+.hard:hover{
+  color: #ffffff;
+  background-color:#0066ff;
+}
+
+.insane{
+  color: #ffffff;
+  background-color:#ff0000;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 150px;
+}
+.insane:hover{
+  color: #ffffff;
+  background-color:#ff0461;
+}
+
+.startbtn{
+  color: #ffffff;
+  background-color:#ff9900;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 200px;
+}
+.startbtn:hover{
+  color: #FFFFFF;
+  background-color:#ffcc00;
+}
